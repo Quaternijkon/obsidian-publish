@@ -1,6 +1,6 @@
 # Summary
-[[Introduction]]
 
+[Introduction](Introduction.md)
 # Paper
-- [_ANNS](_ANNS.md)
-	- [paper1](paper1.md)
+- [ANNS](Paper/ANNS/_ANNS.md)
+	- [paper1](Paper/ANNS/paper1.md)
