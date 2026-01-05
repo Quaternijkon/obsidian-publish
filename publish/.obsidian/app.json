@@ -1,4 +1,6 @@
 {
   "promptDelete": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./.assets",
   "alwaysUpdateLinks": true
 }

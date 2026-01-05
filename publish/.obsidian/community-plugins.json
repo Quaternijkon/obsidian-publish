@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "obsidian-admonition",
   "obsidian-advanced-slides",
   "obsidian-advanced-uri",
@@ -7,6 +6,7 @@
   "dataview",
   "editing-toolbar",
   "obsidian-excalidraw-plugin",
+  "obsidian-git",
   "obsidian-icon-folder",
   "obsidian-outliner",
   "obsidian-style-settings",
