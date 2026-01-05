@@ -4,8 +4,8 @@ on:
     branches:
       - main
     paths:
-      - src/**
-      - .github/workflows/deploy.yml
+      - publish/**
+      - .github/workflows/mdbook.yml
       - book.toml
   workflow_dispatch:
 
