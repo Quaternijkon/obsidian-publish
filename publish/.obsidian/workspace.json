@@ -213,6 +213,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "zk-prefixer:创建时间戳笔记": false,
       "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": false,
@@ -228,8 +229,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b46879b6b4707c45",
+  "active": "6d0d998e00048000",
   "lastOpenFiles": [
+    "deploy.py",
+    "新建 文本文档.txt",
+    "Presentation",
     "Introduction.md",
     "Paper/ANNS/_ANNS.md",
     "SUMMARY.md",

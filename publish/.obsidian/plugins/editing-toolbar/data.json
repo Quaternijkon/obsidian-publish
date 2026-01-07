@@ -297,7 +297,7 @@
   "mobileCommands": [],
   "enableMultipleConfig": false,
   "enableTopToolbar": true,
-  "enableFollowingToolbar": true,
+  "enableFollowingToolbar": false,
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
