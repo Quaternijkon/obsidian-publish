@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "Note/图床使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUMMARY"
+              "title": "图床使用"
             }
           }
         ],
@@ -231,12 +231,15 @@
   },
   "active": "6d0d998e00048000",
   "lastOpenFiles": [
+    "Note/私有仓库分布笔记.md",
+    "Note/图床使用.md",
+    "SUMMARY.md",
+    "Note",
     "deploy.py",
     "新建 文本文档.txt",
     "Presentation",
     "Introduction.md",
     "Paper/ANNS/_ANNS.md",
-    "SUMMARY.md",
     "Paper/ANNS/paper1.md",
     "Paper/ANNS",
     "chapter_1.md",

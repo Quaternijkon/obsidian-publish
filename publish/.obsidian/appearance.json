@@ -2,5 +2,6 @@
   "interfaceFontFamily": ".苹方-简",
   "textFontFamily": ".苹方-简",
   "monospaceFontFamily": "JetBrains Mono",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "theme": "moonstone"
 }
