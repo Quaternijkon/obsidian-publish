@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUMMARY"
+              "title": "Introduction"
             }
           }
         ],
@@ -229,13 +229,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b46879b6b4707c45",
+  "active": "6d0d998e00048000",
   "lastOpenFiles": [
-    "Note/Obsidian/Obsidian.md",
     "SUMMARY.md",
+    "Note/Obsidian/记录文件修改过的日期.md",
     "Note/Obsidian/图床使用.md",
     "Note/Obsidian/私有仓库分布公开笔记.md",
-    "Note/Obsidian/记录文件修改过的日期.md",
+    "Note/Obsidian/Obsidian.md",
     "Note/图床使用.md",
     "Note/Obsidian",
     "Note/私有仓库分布笔记.md",
