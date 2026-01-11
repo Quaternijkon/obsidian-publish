@@ -232,6 +232,7 @@
   "active": "6d0d998e00048000",
   "lastOpenFiles": [
     "SUMMARY.md",
+    "Introduction.md",
     "Note/Obsidian/记录文件修改过的日期.md",
     "Note/Obsidian/图床使用.md",
     "Note/Obsidian/私有仓库分布公开笔记.md",
@@ -243,7 +244,6 @@
     "deploy.py",
     "新建 文本文档.txt",
     "Presentation",
-    "Introduction.md",
     "Paper/ANNS/_ANNS.md",
     "Paper/ANNS/paper1.md",
     "Paper/ANNS",
