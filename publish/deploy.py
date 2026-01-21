@@ -7,13 +7,13 @@ import frontmatter  # pip install python-frontmatter
 # ================= ⚙️ 配置区域 =================
 
 # 1. 私有仓库（源）
-PRIVATE_VAULT_PATH = r"D:\obsidian-gitsync\source"
+PRIVATE_VAULT_PATH = r"D:\obsidian-gitsync\workspace"
 
 # 2. 公开仓库（目标）
-PUBLISH_REPO_PATH = r"D:\obsidian-gitsync\publish\publish"
+PUBLISH_REPO_PATH = r"D:\obsidian-gitsync\publish"
 
 # 3. 文章子目录 (mdbook 填 "src", Hugo/Hexo 填 "content")
-TARGET_SUBDIR = "src"
+TARGET_SUBDIR = "publish"
 
 # 4. 记录同步状态的清单文件
 MANIFEST_FILE = ".sync_manifest.json"
@@ -24,11 +24,27 @@ MANIFEST_FILE = ".sync_manifest.json"
 sys.stdout.reconfigure(encoding='utf-8')
 
 def is_public(file_path):
-    """检查是否有 public: true"""
+    """检查是否有 public: true (修复编码版)"""
     try:
-        post = frontmatter.load(file_path)
-        return post.get('public') is True
-    except Exception:
+        # ⚠️ 关键修改：必须显式指定 encoding='utf-8'，否则遇到中文会报错
+        with open(file_path, 'r', encoding='utf-8') as f:
+            post = frontmatter.load(f)
+            
+            # 获取属性，兼容布尔值
+            val = post.get('public')
+            
+            if val is True:
+                return True
+            
+            # 兼容手误写成字符串的情况 (可选，但推荐保留)
+            if isinstance(val, str) and val.lower() == 'true':
+                return True
+                
+            return False
+            
+    except Exception as e:
+        # 调试建议：如果还不行，把下面这行注释解开，就能看到具体报错了！
+        # print(f"[ERROR] 读取失败: {file_path} -> {e}")
         return False
 
 def load_manifest():
